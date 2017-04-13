@@ -12,7 +12,8 @@ output: zlib compressed data
 [layika@layika:shacolla]$ cat output
 x���TH���Q�I-Q/VH�W(�W(�H4��KWT�r,JU��/U(JML��W���M-V�/R���ͷ�L2
 
-We can read the message using zlib.decompress() The following code contains comments with decompressed messages we get from the server one by one.
+We can read the message using zlib.decompress().
+The following code contains comments with decompressed messages we get from the server one by one.
 '''
 
 from pwn import *
